@@ -34,8 +34,12 @@ body {
     padding-bottom: vw ;
     height: 256px ; width: 512px;
 }
+.project-titlewide{
+    padding-top: 10px ;
+    padding-bottom: vw ;
+    height: 128px ; width: 256px;
+}
 .titlelong{
-    
     padding-bottom: vw ;
     padding-right: vw ;
     padding-top: 1vw;
@@ -56,15 +60,13 @@ p2 {
     color: lightgray;
     font-size: 50px; 
 }
-p3
-{
+p3{
     font-family: MINECRAFTSEVEN;
     color: lightgray;
     font-size: 2vw; 
     text-shadow: 0px 3px #381218; 
 }
-p4
-{
+p4{
     font-family: MINECRAFTSEVEN;
     color: lightgray;
     font-size: 1.3vw; 
@@ -91,7 +93,7 @@ p4
     width: 10% ;
     height: 10vw
 }
-.center-image {
+.center-image{
       display: block;
   margin-left: auto;
   margin-right: auto;
@@ -106,23 +108,20 @@ p4
   padding: 0;
   margin: 10px;
 }
-.banner
-{
+.banner{
     text-decoration: none;
     color: azure;
     padding-right:5vw; 
     padding-left:3vw; 
     text-align: center;
 }
-.tab
-{
+.tab{
     background-image:url('images/select_bar.png')
     float: left ;
     width: 80% ;
     height: 8vw
 }
-a
-{
+a{
       text-shadow: 0px 4px #481290;
 }
 .blog-container{
@@ -153,13 +152,12 @@ a
   background-repeat: no-repeat;
   position: relative;
 }
-.blog
-{
+.blog{
   padding: 6vw ;
-  padding-top: 5vw;
+  padding-top: 6vw;
+  padding-bottom: 6vw; 
 }
-.home-image
-{
+.home-image{
     width: 70%;
 }
 .home{
@@ -186,7 +184,7 @@ a
   padding: 4vw ;
   padding-top: 5vw;
 }
-.leftSide {
+.leftSide{
     float: left;
     margin-top: 20px;
 }
