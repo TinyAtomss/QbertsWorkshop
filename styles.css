@@ -28,6 +28,10 @@ body {
     padding-top: 100px ;
     padding-bottom: vw ;
     height: 256px ; width: 256px;
+}.largetitle{
+    padding-top: 1px ;
+    padding-bottom: vw ;
+    height: 500px ; width: 500px;
 }
 .titlewide{
     padding-top: 100px ;
@@ -145,10 +149,9 @@ a{
   border-radius: 20px;
 }
 .home-container{
-  background-size: contain;
   float: left ;
   width: 48vw ;
-  height: 25vw;
+  height: 30vw;
   background-repeat: no-repeat;
   position: relative;
 }
