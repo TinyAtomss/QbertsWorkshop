@@ -1,0 +1,189 @@
+body {
+    margin:0;
+  background-image: url('assets/pagemain/background.png');
+  background-repeat: space ;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+.sidebar{
+    background-size: 100%;
+    height:100vh ; width:20% ; float:left;
+}
+.mainbar{
+  background-color: darkslategray;
+  background-size: 100%;
+  height:200vh ; width:60% ; float:left;
+  border-radius: 20px;
+}
+.mbtext{
+    padding-top: 5vw;
+}
+.title{
+    padding-top: 100px ;
+    padding-bottom: vw ;
+    height: 256px ; width: 256px;
+}
+.titlewide{
+    padding-top: 100px ;
+    padding-bottom: vw ;
+    height: 256px ; width: 512px;
+}
+@font-face {
+    font-family: MINECRAFTSEVEN;
+    src: url(fonts/Ubuntu-Medium.ttf);
+}
+p1{
+    font-family: MINECRAFTSEVEN;
+    color: lightgray;
+    font-size: 1.3vw; 
+    text-shadow: 0px 3px #381218; 
+}
+p2 {
+    font-family: MINECRAFTFIVE-BOLD;
+    color: lightgray;
+    font-size: 50px; 
+}
+p3
+{
+    font-family: MINECRAFTSEVEN;
+    color: lightgray;
+    font-size: 2vw; 
+    text-shadow: 0px 3px #381218; 
+}
+p4
+{
+    font-family: MINECRAFTSEVEN;
+    color: lightgray;
+    font-size: 1.3vw; 
+    text-shadow: 0px 3px #381218; 
+}
+.sidebar1{
+    height:100vh ; width:20% ; float:left;
+}
+@font-face {
+    font-family: MINECRAFTFIVE-BOLD;
+    src: url(fonts/MINECRAFTFIVE-BOLD.TTF);
+}
+
+.Titlebar{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left ;
+    width: 80% ;
+    background-color: darkslategray;
+    border-radius: 20px;
+}
+.titleside{
+    float: left ;
+    width: 10% ;
+    height: 10vw
+}
+.center-image {
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.mods-container .mod {
+  background: #111;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 300px;
+  height: auto;
+  padding: 0;
+  margin: 10px;
+}
+.banner
+{
+    text-decoration: none;
+    color: azure;
+    padding-right:5vw; 
+    padding-left:3vw; 
+    text-align: center;
+}
+.tab
+{
+    background-image:url('images/select_bar.png')
+    float: left ;
+    width: 80% ;
+    height: 8vw
+}
+a
+{
+      text-shadow: 0px 4px #481290;
+}
+.blog-container{
+  background-color: slategray;
+  background-size: contain;
+  float: left ;
+  width: 48vw ;
+  height: 20vw;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 20px;
+}
+.home-container{
+  background-size: contain;
+  float: left ;
+  width: 48vw ;
+  height: 25vw;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.blog
+{
+  padding: 6vw ;
+  padding-top: 5vw;
+}
+.home-image
+{
+    width: 70%;
+}
+.home{
+    width: 44%;
+    height: 10vw;
+    float: left;
+    padding: 3% ;
+    padding-right: 1% ;
+}
+.home-container{
+  width: 48vw ;
+  height: 25vw;
+  position: relative;
+}
+.text-container{
+  float: left ;
+  width: 50vw ;
+  height: 25vw;
+  background-repeat: no-repeat;
+  position: center
+
+}
+.text{
+  padding: 4vw ;
+  padding-top: 5vw;
+}
+.leftSide {
+    float: left;
+    margin-top: 20px;
+}
+table {
+    max-width: 100%;
+    background-color: transparent;
+}
+.large_blocks_OreQuartz {
+    background-position: -256px -64px;
+}
+.hometext{
+    width: 90%;
+    height: 15vw;
+
+    padding: 3% ;
+    padding-right: 1% ;
+}
